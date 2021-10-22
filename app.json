@@ -1,14 +1,15 @@
 {
   "expo": {
-    "name": "nlw_react_native",
-    "slug": "nlw_react_native",
+    "name": "nlwreactnative",
+    "slug": "nlwreactnative",
     "version": "1.0.0",
+    "scheme": "nlwreactnative",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#121214"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -17,9 +18,12 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.nlw.nlwreactapp"
     },
     "android": {
+      "package": "com.nlw.nlwreactapp",
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
@@ -27,6 +31,7 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "description": ""
   }
 }
